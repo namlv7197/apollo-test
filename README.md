@@ -6,11 +6,15 @@ Author: Le Viet Nam
 
 ## Create Kafka cluster
 [repo](https://github.com/namlv7197/kafka-cluster)
-Build Kafka cluster including 3 nodes for anyone to create and listen topic
+
+Build Kafka cluster including 3 nodes for anyone to create and listen topic.
+
 Bootstrap servers: 54.179.7.184:9092,54.151.183.113:9092,54.254.228.131:9092
+
 List of topics:
 - bao_tuoi_tre_topic: Store messages as binary collected by Crawler
 - bao_tuoi_tre_word_counter: Store messages as binary processed by Spark
+  
 Message structure of bao_tuoi_tre_topic decoded is a dictionary type
 |Key|Description|Value|
 |-|-|-|
