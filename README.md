@@ -37,12 +37,19 @@ Message structure of bao_tuoi_tre_word_counter decoded is a dictionary type
 
 ## Create Crawler
 [repo](https://github.com/namlv7197/vietnamese-news-crawler)
+
 This source will collect data from [bao tuoi tre](https://tuoitre.vn/) and use Kafka send it to bao_tuoi_tre_topic topic
+
 Input: https://tuoitre.vn/tin-moi-nhat.htm
+
 Output: Message
 
 ## Word Counter with Spark Standalone
 [repo](https://github.com/namlv7197/vietnamese-news-crawler-word-counter)
+
 This source will listen messages produced by bao_tuoi_tre_topic, then count word frequency and send the output to bao_tuoi_tre_word_counter topic by Spark query streaming
+
 Input: Message from bao_tuoi_tre_topic
+
 Output: Message of bao_tuoi_tre_word_counter
+
