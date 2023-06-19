@@ -28,6 +28,13 @@ Message structure of bao_tuoi_tre_topic decoded is a dictionary type
 |sub_categories|list of sub categories of news||
 |upload|The time news published|19/06/2023 06:42 GMT+7|
 |comments|number of comments of news|0|
+
+Message structure of bao_tuoi_tre_word_counter decoded is a dictionary type
+|Key|Description|Value|
+|-|-|-|
+|news_id|Id of news|20230619045746463|
+|tokens|List of tokens exclude single characters|{"token": "Tin tức", "frequency":2}|
+
 ## Create Crawler
 [repo](https://github.com/namlv7197/vietnamese-news-crawler)
 
