@@ -53,3 +53,5 @@ Input: Message from bao_tuoi_tre_topic
 
 Output: Message of bao_tuoi_tre_word_counter
 
+Note: There are some limitations about finance so I can not run this source on AWS
+
