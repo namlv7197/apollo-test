@@ -9,7 +9,7 @@ Author: Le Viet Nam
 
 Build Kafka cluster including 3 nodes for anyone to create and listen topic.
 
-Bootstrap servers: 54.179.7.184:9092,54.151.183.113:9092,54.254.228.131:9092
+Bootstrap servers: 54.255.215.10:9092,13.212.251.13:9092,13.212.207.232:9092
 
 List of topics:
 - bao_tuoi_tre_topic: Store messages as binary collected by Crawler
@@ -33,7 +33,7 @@ Message structure of bao_tuoi_tre_word_counter decoded is a dictionary type
 |Key|Description|Value|
 |-|-|-|
 |news_id|Id of news|20230619045746463|
-|tokens|List of tokens exclude single characters|{"token": "Tin tức", "frequency":2}|
+|tokens|Dictionary of tokens exclude single characters|{"token": "frequency"}|
 
 ## Create Crawler
 [repo](https://github.com/namlv7197/vietnamese-news-crawler)
